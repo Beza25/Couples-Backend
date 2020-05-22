@@ -1,0 +1,2 @@
+class UMessagesController < ApplicationController
+end

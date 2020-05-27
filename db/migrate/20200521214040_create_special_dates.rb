@@ -3,7 +3,7 @@ class CreateSpecialDates < ActiveRecord::Migration[6.0]
     create_table :special_dates do |t|
       t.date :special_day
       t.integer :user_id
-      t.sstring :title
+      t.string :title
       t.string :location
 
       t.timestamps

@@ -1,5 +1,9 @@
 # README
 
+* The backend has 3 modelse (user, message and SpecialDate)
+* 
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

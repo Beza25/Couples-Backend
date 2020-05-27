@@ -7,9 +7,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.date :birth_day
       t.string :gender
       t.string :theme, default:"https://wallpapercave.com/wp/wp4410724.jpg"
-      t.references :partenr_a
-    
-
+      t.references :partner
       t.timestamps
     end
   end

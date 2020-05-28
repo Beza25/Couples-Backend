@@ -25,6 +25,12 @@ class MessagesController < ApplicationController
         render json: text
     end
 
+    def update
+        text = Message.find(params[:id])
+        updated = text.update(isfavorited: params[:isfavorited])
+        render json: text
+    end
+
 
 
 

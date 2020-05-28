@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2020_05_21_214040) do
   create_table "messages", force: :cascade do |t|
     t.string "content"
     t.integer "user_id"
+    t.boolean "isfavorited", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
